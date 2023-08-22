@@ -1,0 +1,64 @@
+body {
+    font-family: Times new roman, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: powderblue;
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Set the maximum width for the images and center-align them */
+  
+    .layout {
+          display: flex;
+          align-items: center;
+        }
+  
+        .image-container {
+          flex: 1;
+          padding: 10px; /* Add spacing around the images */
+        }
+  
+        .image-container img {
+          max-width: 100%;
+          height: 100%;
+        }
+  
+        .center-content {
+          flex: 2;
+          padding: 10px;
+        }
+   
+  .signup-button {
+  display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: powderblue;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
